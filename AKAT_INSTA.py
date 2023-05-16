@@ -29,7 +29,7 @@ L.context.log('Logging in...')
 L.login(username, password)
 
 # المستخدم المستهدف
-target_username = 'arig.2022'
+target_username =input('User Name')
 
 # إنشاء مجلد لتخزين الصور المستهدفة
 if not os.path.isdir(target_username):
